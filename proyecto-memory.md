@@ -22,3 +22,10 @@ El agente `auditor` bloqueará cualquier tarjeta Kanban en la columna `Blocked` 
 1. **Factibilidad Logística:** No se pueden programar sesiones de estudio intensivo los viernes en la tarde/noche ni los domingos en la tarde/noche, ya que son los horarios de viaje en flota o carro entre Suba (Bogotá) y Paipa (Boyacá).
 2. **Rigor Científico:** Todo reporte de laboratorio o resumen de biomédica debe estar respaldado por bibliografía real y metodologías claras.
 3. **Optimización del Trayecto:** El plan de estudio diario debe incluir tareas ligeras o de audio que Luna pueda repasar con facilidad mientras se traslada diariamente en el transporte entre Suba y el campus de Cajicá.
+
+## Reglas del proyecto
+- El asistente NO ejecuta el trabajo del proyecto.
+- Todo el trabajo se ejecuta exclusivamente por workers del Kanban Swarm.
+- El asistente solo crea tarjetas en el Kanban y monitorea el avance.
+- Si un worker no completa una tarea, el asistente informa y subsana el inconveniente.
+- El asistente nunca reemplaza a un worker ni ejecuta tareas directamente.
